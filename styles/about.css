@@ -1,0 +1,39 @@
+.content{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bg{
+    background-image: url(../images/sheet-music.jpg);
+    position: absolute;
+    top: 0;
+    bottom: 0; 
+    right: 0;
+    left: 0;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    filter: brightness(20%);
+    z-index: -1;
+}
+
+.image-wrapper img{
+    width: 500px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+.text-wrapper{
+    width: 600px;
+    color: white;
+}

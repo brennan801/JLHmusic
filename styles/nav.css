@@ -1,0 +1,42 @@
+.nav{
+    background-color: #660064;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.nav > .logo-wrapper a{
+    color: #69ff78;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.nav > .logo-wrapper img{
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 4px;
+}
+.nav > .link-grid{
+    width: 175px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.nav > .link-grid > .links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav > .link-grid > .links > .link a{
+    color: white;
+    text-decoration: none;
+    transition: 0.25s;
+    font-size: 1.75em;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 2px;
+}
+.nav > .link-grid >  .links > .link a:hover{
+    color: #69ff78;
+    letter-spacing: 4px;
+}

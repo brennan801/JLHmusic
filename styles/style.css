@@ -1,0 +1,22 @@
+/*
+#69ff78 green
+#712775 purple
+*/
+body{
+    margin: 0px;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'KoHo', sans-serif;
+}
+p{
+    font-size: 1.1em;
+}
+h1{
+    font-size: 3em;
+    font-family: 'Amatic SC', cursive;
+}
+.padded{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    font-weight: bold;
+}

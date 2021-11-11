@@ -1,0 +1,74 @@
+.main-header{
+    position: relative;
+    height: 640px;
+    overflow: hidden;
+}
+.main-header > .bg{
+    background-image: url(../images/flute-music.jpg);
+    position: absolute;
+    top: 0;
+    bottom: 0; 
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    filter: brightness(50%);
+}
+.main-header-wrapper{
+    position: absolute;
+    width: 100%;
+}
+.main-header-wrapper > .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    height: 100px;
+}
+
+.main-header-wrapper > .content > .logo-wrapper a{
+    color: #69ff78;
+    font-size: 2em;
+    text-decoration: none;
+}
+.main-header-wrapper > .content > .logo-wrapper img{
+    padding-top: 10px;
+    width: 250px;
+}
+.main-header-wrapper > .content > .link-grid{
+    width: 175px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.link-grid > .links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link-grid > .links > .link a{
+    color: white;
+    font-size: 1.75em;
+    text-decoration: none;
+    transition: 0.25s;
+    font-family: 'Amatic SC', cursive;
+    letter-spacing: 2px;
+}
+.link-grid >  .links > .link a:hover{
+    color: #69ff78;
+    letter-spacing: 4px;
+}
+.main-header > .main-header-wrapper> .inside-content{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+.inside-content h1{
+    margin: 10px;
+}
