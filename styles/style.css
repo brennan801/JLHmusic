@@ -15,8 +15,8 @@ h1{
     font-family: 'Amatic SC', cursive;
 }
 .padded{
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 100px;
     font-weight: bold;
 }
