@@ -1,15 +1,31 @@
 .content{
-    padding-top: 100px;
+    padding-top: 80px;
     padding-bottom: 100px;
     position: relative;
     overflow: hidden;
+}
+
+@media only screen and (max-width: 1130px){
+    .about-wrapper{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .about-wrapper2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .about-wrapper{
     display: flex;
     justify-content: space-around;
 }
-
+.about-wrapper2{
+    display: flex;
+    justify-content: space-around;
+}
 .bg{
     background-image: url(../images/sheet-music.jpg);
     position: absolute;
@@ -18,9 +34,8 @@
     right: 0;
     left: 0;
     background-size: cover;
-    height: 100%;
+    height: initial;
     width: 100%;
-    background-size: 100%;
     background-repeat: no-repeat;
     filter: brightness(20%);
     z-index: -1;
@@ -28,9 +43,17 @@
 
 .image-wrapper img{
     width: 500px;
-    height: 100%;
+    height: 500px;
     object-fit: cover;
-    border-radius: 5%;
+    border-radius: 10px;
+}
+
+.link-wrapper{
+    align-self: center;
+}
+
+iframe{
+    border-radius: 10px;
 }
 
 .text-wrapper{
