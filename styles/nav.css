@@ -1,5 +1,4 @@
 .nav{
-    background-color: #660064;
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -8,7 +7,6 @@
     padding-left: 50px;
 }
 .nav > .logo-wrapper a{
-    color: #69ff78;
     font-size: 2em;
     text-decoration: none;
 }

@@ -1,7 +1,3 @@
-/*
-#69ff78 green
-#712775 purple
-*/
 body{
     margin: 0px;
     font-family: 'Amatic SC', cursive;
@@ -29,4 +25,17 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.color-primary{
+    color: #00164D;
+}
+.color-secondary{
+    color: #E4B945;
+}
+.bg-primary{
+    background-color: #00164D;
+}
+.bg-secondary{
+    background-color: #E4B945;
 }
