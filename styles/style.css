@@ -1,7 +1,6 @@
 body{
     margin: 0px;
     font-family: 'Ibarra Real Nova', serif;
-    font-family: 'KoHo', sans-serif;
 }
 p{
     font-size: 1.1em;
@@ -9,6 +8,7 @@ p{
 h1{
     font-size: 3em;
     font-family: 'Ibarra Real Nova', serif;
+    font-weight: normal;
 }
 .padded{
     margin-left: 10%;
