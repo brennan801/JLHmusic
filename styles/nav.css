@@ -17,7 +17,7 @@
     padding-bottom: 4px;
 }
 .nav > .link-grid{
-    width: 275px;
+    width: 350px;
     display: grid;
     grid-template-columns: 1fr;
 }
