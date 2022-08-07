@@ -39,9 +39,14 @@
     letter-spacing: 4px;
 }
 
+
 @media screen and (max-width: 690px) {
     .nav > .link-grid{
         display: none;
+    }
+    .nav i{
+        padding: 5px;
+        color: #E4B945;
     }
 }
 
