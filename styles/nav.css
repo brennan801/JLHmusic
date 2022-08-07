@@ -58,6 +58,16 @@
         -webkit-text-stroke: 1px;
         -webkit-text-stroke-color: #E4B945;
     }
+    .nav span:checked ~ .hamburger-menu{
+        right: 0 !important;
+    }
+    .hamburger-menu{
+        display: block;
+        position: fixed;
+        top: 100px;
+        right: -100%;
+        transition-duration: .25s;
+    }
 }
 
 @media screen and (min-width: 690px) {
