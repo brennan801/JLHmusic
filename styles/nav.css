@@ -50,9 +50,12 @@
         font-size: 40px;
     }
     .nav span:hover{
-        padding: 5px;
         color: #E4B945;
-        font-size: 40px;
+    }
+    .nav span:focus{
+        color:white;
+        border-width:1px;
+        border-color:#E4B945;
     }
 }
 
