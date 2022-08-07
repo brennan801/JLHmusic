@@ -55,8 +55,8 @@
     }
     .nav span:focus{
         color:white;
-        border-width:10px;
-        border-color:#E4B945;
+        -webkit-text-stroke: 1px;
+        -webkit-text-stroke-color: #E4B945;
     }
 }
 
