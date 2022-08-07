@@ -44,7 +44,7 @@
     .nav > .link-grid{
         display: none;
     }
-    .nav i{
+    .nav span{
         padding: 5px;
         color: #E4B945;
     }
