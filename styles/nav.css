@@ -38,3 +38,9 @@
     color: #E4B945;
     letter-spacing: 4px;
 }
+
+@media screen and (max-width: 690px) {
+    .nav > .link-grid{
+        color: green;
+    }
+}
