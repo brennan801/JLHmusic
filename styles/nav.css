@@ -41,6 +41,12 @@
 
 @media screen and (max-width: 690px) {
     .nav > .link-grid{
-        color: green;
+        display: none;
+    }
+}
+
+@media screen and (min-width: 690px) {
+    .nav > .hamburger{
+        display: none;
     }
 }
