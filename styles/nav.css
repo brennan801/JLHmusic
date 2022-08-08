@@ -39,6 +39,25 @@
     letter-spacing: 4px;
 }
 
+.hamburger-menu{
+    display: block;
+    position: fixed;
+    top: 100px;
+    right: -100%;
+    list-style: none;
+    transition-duration: .25s;
+    background-color: gray;
+}
+
+.menu-item{
+    display: block;
+    padding: 12px 24px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: .25s;
+}
 
 @media screen and (max-width: 690px) {
     .nav > .link-grid{
@@ -61,13 +80,7 @@
     .nav span:checked ~ .hamburger-menu{
         right: 0 !important;
     }
-    .hamburger-menu{
-        display: block;
-        position: fixed;
-        top: 100px;
-        right: -100%;
-        transition-duration: .25s;
-    }
+    
 }
 
 @media screen and (min-width: 690px) {
