@@ -59,6 +59,10 @@
     transition-duration: .25s;
 }
 
+.nav span:focus + .hamburger-menu{
+    background-color: #E4B945;
+}
+
 @media screen and (max-width: 690px) {
     .nav > .link-grid{
         display: none;
@@ -77,10 +81,7 @@
         -webkit-text-stroke: 1px;
         -webkit-text-stroke-color: #E4B945;
     }
-    .nav span:focus + .hamburger-menu{
-        background-color: #E4B945;
-    }
-    
+       
 }
 
 @media screen and (min-width: 690px) {
