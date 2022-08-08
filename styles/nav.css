@@ -77,7 +77,7 @@
         -webkit-text-stroke: 1px;
         -webkit-text-stroke-color: #E4B945;
     }
-    .nav span:checked ~ .hamburger-menu{
+    .nav span:focus ~ .hamburger-menu{
         right: 0 !important;
     }
     
