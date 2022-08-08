@@ -78,7 +78,7 @@
         -webkit-text-stroke-color: #E4B945;
     }
     .nav span:focus ~ .hamburger-menu{
-        right: 0 !important;
+        right: 50 !important;
     }
     
 }
