@@ -43,7 +43,7 @@
     display: block;
     position: fixed;
     top: 100px;
-    right: -100%;
+    right: 0px;
     list-style: none;
     transition-duration: .25s;
     background-color: gray;
@@ -78,7 +78,7 @@
         -webkit-text-stroke-color: #E4B945;
     }
     .nav span:focus + .hamburger-menu{
-        right: 0px !important;
+        background-color: #E4B945;
     }
     
 }
