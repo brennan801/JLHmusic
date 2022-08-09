@@ -1,4 +1,4 @@
-jQuery('.nav').click(function(){
-  console.log("sup"); 
+$('.hamburger').click(function(){
+  $('.hamburger-menu ul').toggle(); 
 });
 console.log("page loaded");
