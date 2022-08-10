@@ -100,7 +100,7 @@
     background-color: #E4B945;
 }
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 771px) {
     .main-header .main-header-wrapper .content .link-grid{
         display: none;
     }
@@ -118,11 +118,26 @@
         -webkit-text-stroke: 1px;
         -webkit-text-stroke-color: #E4B945;
     }
-       
+    .main-header > .bg{
+        background-image: url(../images/flute-music-mobile.jpg);
+    }   
 }
 
-@media screen and (min-width: 690px) {
+@media screen and (min-width: 770px) {
     .main-header .hamburger{
         display: none;
+    }
+
+    .main-header .hamburger-menu{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    .main-header{
+        height: 500px;
+    }
+    .main-header > .main-header-wrapper> .inside-content{
+        font-size: 0.5em;
     }
 }
